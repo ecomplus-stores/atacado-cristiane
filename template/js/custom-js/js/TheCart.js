@@ -62,7 +62,7 @@ import {
         books: [
             { title: "--" },
             { title: "Sandy" },
-            { title: "Bruna" }
+            { title: "Vitória" }
             
         ],
         seller: null,
