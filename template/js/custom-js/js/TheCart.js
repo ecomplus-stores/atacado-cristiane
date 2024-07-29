@@ -66,7 +66,7 @@ import {
             
         ],
         seller: null,
-        quantityToBuy: 4
+        quantityToBuy: 1
       }
     },
   
