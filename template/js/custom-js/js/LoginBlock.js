@@ -18,6 +18,7 @@ import {
   import ecomPassport from '@ecomplus/passport-client'
   import AAlert from '@ecomplus/storefront-components/src/AAlert.vue'
   import InputDocNumber from '@ecomplus/storefront-components/src/InputDocNumber.vue'
+  import ALink from '@ecomplus/storefront-components/src/ALink.vue'
 
   const updateSpec = async (id) => {
     callApi(`products/${id}.json`, 'GET', (err, json) => {
@@ -109,6 +110,7 @@ import {
   
     components: {
       AAlert,
+      ALink,
       InputDocNumber
     },
   
