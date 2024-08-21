@@ -14,7 +14,10 @@
     "socials": true
   },
   "categories_list": {
-    "featured": [],
+    "featured": [
+      "/loja?LOJA",
+      "/colecao-aurora?COLEÇÃO AURORA"
+    ],
     "random": 5,
     "full_width": false
   },
