@@ -62,7 +62,7 @@ import {
         books: [
             { title: "--" },
             { title: "Sandy" },
-            { title: "Bruna" }
+            { title: "Vitoria" }
             
         ],
         seller: null,
@@ -108,7 +108,7 @@ import {
         sessionUtm.term = this.seller
         sessionUtm.content = this.seller
         window.sessionStorage.setItem('ecomUtm', JSON.stringify(sessionUtm))
-        const hasSeller = ['bruna', 'sandy'].some(name => this.seller && this.seller.toLowerCase() === name)
+        const hasSeller = ['vitoria', 'sandy'].some(name => this.seller && this.seller.toLowerCase() === name)
         return this.quantityCart >= this.quantityToBuy && (hasSeller)
       },
   
